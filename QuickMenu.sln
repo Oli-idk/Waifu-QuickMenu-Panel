@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickPanel", "QuickMenu\QuickPanel.csproj", "{F2429A90-EA73-4B37-9D9E-D0A89E0E641B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2429A90-EA73-4B37-9D9E-D0A89E0E641B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2429A90-EA73-4B37-9D9E-D0A89E0E641B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2429A90-EA73-4B37-9D9E-D0A89E0E641B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2429A90-EA73-4B37-9D9E-D0A89E0E641B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE54FE9B-BB31-436E-96C0-A659D64CEA40}
+	EndGlobalSection
+EndGlobal
