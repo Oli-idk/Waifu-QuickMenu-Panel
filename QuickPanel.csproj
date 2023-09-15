@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>TargetFramework</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <LangVersion>preview</LangVersion>
+    <RootNamespace>QuickMenu</RootNamespace>
+    <AssemblyName>QuickMenu</AssemblyName>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Waifu.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Media Manager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="app.manifest" />
+    <None Include="App1.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\big button.png" />
+    <None Include="Resources\buttton.png" />
+    <Content Include="Icon.ico" />
+    <Content Include="Waifu.ico" />
+    <Content Include="Wallpaper.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="QuickMenu\Form1.cs" />
+    <Compile Remove="QuickMenu\Form1.Designer.cs" />
+    <Compile Remove="QuickMenu\Form2.cs" />
+    <Compile Remove="QuickMenu\Form2.Designer.cs" />
+    <Compile Remove="QuickMenu\Media Manager.cs" />
+    <Compile Remove="QuickMenu\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Remove="QuickMenu\obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Remove="QuickMenu\Program.cs" />
+    <Compile Remove="QuickMenu\Properties\AssemblyInfo.cs" />
+    <Compile Remove="QuickMenu\Properties\Resources.Designer.cs" />
+    <Compile Remove="QuickMenu\Properties\Settings.Designer.cs" />
+    <EmbeddedResource Remove="QuickMenu\Form1.resx" />
+    <EmbeddedResource Remove="QuickMenu\Form2.resx" />
+    <EmbeddedResource Remove="QuickMenu\Properties\Resources.resx" />
+  </ItemGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>
+</Project>
